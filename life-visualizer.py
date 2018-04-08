@@ -20,7 +20,7 @@ print(segs_alive)
 
 count = 0
 # segs_alive = age*52
-sq_size = 4
+sq_size = 3
 margin = 2
 lifespan = 100
 n = (sq_size + margin) * num_in_year + margin
