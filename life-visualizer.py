@@ -2,7 +2,7 @@ from PIL import Image, ImageFont, ImageDraw, ImageEnhance
 import datetime
 import time
 
-segment = "week"
+segment = "day"
 if segment == "week":
 	multiplier = 1.65344e-6
 	num_in_year = 52
@@ -20,8 +20,8 @@ print(segs_alive)
 
 count = 0
 # segs_alive = age*52
-sq_size = 5
-margin = 3
+sq_size = 4
+margin = 2
 lifespan = 100
 n = (sq_size + margin) * num_in_year + margin
 m = (sq_size + margin) * lifespan + margin
